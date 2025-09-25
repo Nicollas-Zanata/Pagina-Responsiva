@@ -60,6 +60,7 @@ body{
     display:flex;
     justify-content: center;
     flex-direction: row;
+    
     }
 .box3:hover{
    background-color: #fc6108;
