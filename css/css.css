@@ -1,0 +1,15 @@
+.box{
+    height:80vh;
+    width:80vh;
+    transition-property: background-color, border-radius ;
+    transition-property: calc(100) ;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(.15,.89,.85,.26) ;
+    background-color: rgb(2, 197, 34);
+    display:flex;
+    justify-content: center;
+    }
+.box:hover{
+   background-color: #fc0808;
+   border-radius: 50%;  
+}
