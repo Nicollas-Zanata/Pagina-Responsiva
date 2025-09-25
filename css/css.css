@@ -1,15 +1,83 @@
-.box{
-    height:80vh;
-    width:80vh;
+body{
+    place-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.duo1{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.duo2{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.box1{
+    height:45vh;
+    width: 45vw;
     transition-property: background-color, border-radius ;
     transition-property: calc(100) ;
     transition-duration: 2s;
     transition-timing-function: cubic-bezier(.15,.89,.85,.26) ;
-    background-color: rgb(2, 197, 34);
+    background-color: rgb(0, 0, 0);
     display:flex;
     justify-content: center;
+    flex-direction: row;
     }
-.box:hover{
+.box1:hover{
    background-color: #fc0808;
+   border-radius: 50%;  
+}
+.box2{
+    height:45vh;
+    width:45vw;
+    transition-property: background-color, border-radius ;
+    transition-property: calc(100) ;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(.15,.89,.85,.26) ;
+    background-color: rgb(0, 0, 0);
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    }
+.box2:hover{
+   background-color: #5108fc;
+   border-radius: 50%;  
+}
+.box3{
+    height:45vh;
+    width:45vw;
+    transition-property: background-color, border-radius ;
+    transition-property: calc(100) ;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(.15,.89,.85,.26) ;
+    background-color: rgb(0,0, 0);
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    }
+.box3:hover{
+   background-color: #fc6108;
+   border-radius: 50%;  
+}
+.box4{
+    height:45vh;
+    width:45vw;
+    transition-property: background-color, border-radius ;
+    transition-property: calc(100) ;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(.15,.89,.85,.26) ;
+    background-color: rgb(0, 0, 0);
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    }
+.box4:hover{
+   background-color: #f6fa00;
    border-radius: 50%;  
 }
