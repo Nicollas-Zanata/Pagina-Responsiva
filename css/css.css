@@ -82,3 +82,63 @@ body{
    background-color: #f6fa00;
    border-radius: 50%;  
 }
+ @media (max-width: 575.99px)
+ {
+    body{
+        background-color: aquamarine;
+    }
+    .duo1{
+        background-color: aquamarine;
+        flex-wrap: wrap;
+    }
+    .duo{
+       background-color: aquamarine;
+        flex-wrap: wrap;
+    }
+        .box1{
+           background-color:aquamarine; 
+    }
+
+    .box2{
+            background-color:aquamarine;
+    }
+
+    .box3{
+            background-color:aquamarine;
+    }
+
+    .box4{
+            background-color:aquamarine;
+    }
+ }
+ @media (min-width: 576px) and (max-width: 992px)
+ {
+   body{
+    background-color: gray;
+   }
+    .duo1{
+        background-color:grey;
+        flex-direction: column;
+    }
+    .duo2{
+        background-color:gray;
+        flex-direction: column;
+    }
+    .box1{
+           background-color:gray; 
+    }
+
+    .box2{
+            background-color:gray;
+    }
+
+    .box3{
+            background-color:gray;
+    }
+
+    .box4{
+            background-color:gray;
+    }
+
+
+}
